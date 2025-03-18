@@ -19,6 +19,7 @@ for (package in packages) {
 
 # Define UI for the application
 ui <- fluidPage(
+  theme = shinytheme("flatly"),
   titlePanel("Automated Total Station Data Analyzer"),
   
   p("Welcome to the Automated Total Station Data Analyzer web application! This tool analyzes CSV data from total stations, specifically Trimble S7 with TSC5. Please upload a total station CSV file by entering the local path."),
