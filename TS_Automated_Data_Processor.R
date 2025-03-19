@@ -8,7 +8,7 @@
 # ----------------------------------------------------------------------------
 
 # Load required libraries
-packages <- c("dplyr", "tidyr", "xml2", "shiny")
+packages <- c("dplyr", "tidyr", "xml2", "shiny","shinythemes")
 
 for (package in packages) {
   if (!require(package, character.only = TRUE)) {
